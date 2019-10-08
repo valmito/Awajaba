@@ -8,4 +8,12 @@ public class Repas {
 		this.numéro=numero;
 		this.date=date;
 	}
+	
+	public int getNuméro(){
+		return this.numéro;
+	}
+	
+	public void setNuméro(int numero){
+		this.numéro=numero;
+	}
 }
